@@ -17,7 +17,6 @@ void reverseArray(int arr[], int n)
         swap(arr[i], arr[n + (x * i) + x]);
 }
  
-// Drivers code
 int main()
 {
     int arr[] = { 5, 3, 7, 2, 1, 6 };
